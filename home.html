@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Echat.com</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+      * 
+      {
+        box-sizing: border-box;
+      }
+	 
+
+      header 
+      {
+        background-color: #103d82;
+        color: white;
+        height: 100px;
+        width: 100%;
+        
+      }
+      .hed1
+      {
+        font-size: 35px;
+		font-weight:bold;
+        height: 90px;
+        width: 50%;
+        float: left;
+        padding: 15px;
+        margin-left: 10px;
+      }
+      .hed2
+      {
+        height: 90px;
+        font-size: 15px;
+        width: 15%;
+        float: left;
+        padding: 20px;
+        
+
+      }
+      .hed3
+      {
+        height: 90px;
+        font-size: 15px;
+        width: 15%;
+        float: left;
+        padding: 20px;
+        
+
+      }
+      .hed4
+      {
+        height: 90px;
+        font-size: 15px;
+        width: 10%;
+        float: left;
+        padding: 35px;
+      }
+      .afthed
+      {
+		font-family:Times New Roman;
+        background: #E9EBEE;
+        width: 100%;
+        height: 500px;
+      }
+      .afthed1
+      {
+		font-family:Times New Roman;
+         background: #E9EBEE;
+         width: 100%;
+         height: 100%;
+      }
+      .subbod
+      {
+        
+        width: 180px;
+        height: 180px;
+        float: left;
+        padding: 0px;
+      }
+       .subbod1
+      {
+        border: solid 1px;
+        width: 150px;
+        height: 150px;
+        float: left;
+        padding: 0px;
+        
+      }
+      .subbod2
+      {
+        width: 50px;
+        height: 50px;
+        padding: 40px;
+        font-size: 40px;
+        float: left;
+
+      }
+      .bod1
+      {
+        width: 50%;
+        height: 400px;
+        
+        float: left;
+        background: #E9EBEE;
+
+      }  
+      .bod2
+      {
+        width: 50%;
+        height: 100%;
+        
+        float: left;
+        background: #E9EBEE;
+      }  
+      footer
+      {
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        color: blue;
+      } 
+
+     
+      
+</style>
+</head>
+    <body>
+      
+        <header>
+            <div class="hed1">E-Chat</div>
+                <div class="hed2">
+                  <label>Email or Phone</label><br>
+                  <input type="text" name="Email">
+                </div>
+            <div class="hed3">
+                  <label>Password</label><br>
+                  <input type="Password" name="pass">
+                  <a href="#" style="color: white;font-size: 15px;">Forgot password</a>
+            </div>
+            <div class="hed4">
+                  <input type="button" value="Login" style="background-color: #4267B2;color: white;">
+                  
+            </div>
+        </header>
+        <div class="afthed">
+        <section class="afthed1">
+              <div class="bod1">
+                 
+                    <h3 style="margin-left: 10px;">Recent Logins</h3>
+                        <div class="subbod">
+                          <div class="subbod1">
+                            <img src="benzzz.jpg" style="width: 150px;height: 150px;">  
+                          </div>
+                        </div>
+                    
+                        <div class="subbod">
+                          <div class="subbod1">
+                            <div class="subbod2">
+                               <i style="padding: 10px;text-align: center;"><b>+</b></i>
+                            </div>
+                            <div style="width: 135px;height:70px;padding: 15px;text-align: left;">
+                               <label style="font-size: 15px;margin-left: 15px;">Add Account</label>
+                            </div>
+                          </div>
+                        </div>
+                  
+              </div>
+              <div class="bod2">
+                  <h3 style="margin-left: 30px;">Create New Account</h3>
+                  <input type="text" size="25" name="txtfrst" placeholder="First name" style="margin-left: 30px;"><input type="text" size="25" name="txtlst" placeholder="Surname" style="margin-left: 10px;">
+                  <br><br>
+                  <input type="text" size="56" name="txtmob" placeholder="Mobile number or Email" style="margin-left: 30px;">
+                  <br><br>
+                  <input type="Password" size="56"  name="password"  placeholder="New Password" style="margin-left: 30px;" pattern=pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters" required><br><br>
+                  <label style="margin-left: 30px;">Birthday</label><br><br>
+                  <select style="margin-left: 30px;">
+                    <option>23</option>
+                    <option>24</option>
+					<option>25</option>
+					<option>26</option>
+					<option>27</option>
+                  </select>
+                  <select style="margin-left: 10px;">
+                    <option>mar</option>
+                    <option>apr</option>
+					<option>may</option>
+					<option>jun</option>
+					<option>jul</option>
+
+                  </select>
+                  <select style="margin-left: 10px;">
+                    <option>1995</option>
+                    <option>1996</option>
+					<option>1997</option>
+					<option>1998</option>
+					<option>1999</option>
+                  </select><br><br>
+                  <label style="margin-left: 30px;">Gender</label><br><br>
+                  <input type="radio" name="sex" style="margin-left: 30px;"><label>Male</label>
+                  <input type="radio" name="sex" style="margin-left: 30px;"><label>Female</label>
+                  <input type="radio" name="sex" style="margin-left: 30px;"><label>Custom</label>
+                  <br><br>
+                  <input type="button" name="btnsubmit" value="Sign up" onclick="alert('sign up successfully')" style="margin-left: 30px;background-color: #69A74E; color:#FFFFFF; width:70px; height:30px;"/>
+                </form>
+
+              </div>
+          </section>
+        </div>
+        <footer>
+      
+          
+        </footer>
+   
+        </body>
+</html>
+
+
